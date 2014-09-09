@@ -107,7 +107,7 @@ In terms of the memory used to store xml is a good option for the json . The xml
 storeage space.
 
 I prefer java codes , because it is widely used, 
-an sample code i found for converting xml to json format
+An sample code i found for converting xml to json format
 -------------------------------------------------------------
 Copying XML to JSON via XSL Transformation
 package de.odysseus.staxon.sample.copy;
@@ -184,7 +184,7 @@ public class XML2JSON1 {
     }
 }
 
-and one from other source : an problem faced 
+and one from other source : 
 
 package {
 	
