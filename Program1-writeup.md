@@ -323,7 +323,7 @@ The ZIP format supports several compression methods:
 
 
 zip:- is a all in one technique means it compress and archive but 
-gzip is a purely compressing technique it uses tarball for archiving . 
+gzip is a purely compressing technique it uses tarball for archiving  . 
 
 * zip is a software use algorithms which compresses and archieve the file.
   we can retrieve or extract the files from the compressed folder one by one 
@@ -334,6 +334,7 @@ gzip is a purely compressing technique it uses tarball for archiving .
     but this make the file use more space as when compared with gzip but it compress 
     the file  properly . As both zip and gzip can be used with any kind of operating system
     The zip is incorporated with the windows as a internal function of os. 
+    The extension of compressed file is " .zip". 
 
 Gzip:- It is the technique mainly used for compression it uses TAR for archiveing. 
 
@@ -345,5 +346,5 @@ Gzip:- It is the technique mainly used for compression it uses TAR for archivein
     compresses one large file instead of multiple smaller ones, it takes advantage of the 
     redundancy in the file to reduce the file size even further. 
     gzip has a lot of followers from Unix operating system. such as many linux distributions.
-    
+    The extension of compressed file is " .tar.gz" or ".tgz".
  
