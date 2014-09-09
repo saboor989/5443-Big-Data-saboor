@@ -275,6 +275,13 @@ package {
 	
 }
 
+Sql to Json:
+-------------- 
+ Here is a code i found 
+ A link to a nice forum , generating the json with optimised way . 
+ 
+  http://stackoverflow.com/questions/6514876/most-effecient-conversion-of-resultset-to-json
+ 
 
 zip or Gzip
 =============
