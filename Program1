@@ -3,7 +3,7 @@ Converting  .csv File format to .json file format
 
 Why .csv?
 
-The .csv file format i believe to be the simple of all , where data is in comma separated instead of Curly braces or
+The .csv file format i believe to be the simplest of all , where data is in comma separated instead of Curly braces or
  square brackets etc...
  The csv file is simple ,supported by almost all spreadsheets and database management systems. 
  Many programming languages have libraries available that support CSV files.
