@@ -276,4 +276,52 @@ package {
 }
 
 
-The 
+zip or Gzip
+=============
+
+zip :-
+
+Simply putting zip is a file format which compresses the files or reduce the file size. 
+widely used in windows os .
+
+
+Gzip:-
+
+Gzip is a file format which also compresses the files or reduce the file size . 
+widely used in Uinx os.
+
+if both reduces the file size what is the difference?
+ 
+ This both zip and gzip compress and reduce the file size but both are programming techniques to reduce the size so 
+ both are different in implementation but they both do the same thing reduce the size. 
+ 
+The ZIP format supports several compression methods:
+-----------------------------------------------------
+
+0 - The file is stored (no compression)
+1 - The file is Shrunk
+2 - The file is Reduced with compression factor 1
+3 - The file is Reduced with compression factor 2
+4 - The file is Reduced with compression factor 3
+5 - The file is Reduced with compression factor 4
+6 - The file is Imploded
+7 - Reserved for Tokenizing compression algorithm
+8 - The file is Deflated
+9 - Enhanced Deflating using Deflate64(tm)
+10 - PKWARE Data Compression Library Imploding (old IBM TERSE)
+11 - Reserved by PKWARE
+12 - File is compressed using BZIP2 algorithm
+13 - Reserved by PKWARE
+14 - LZMA (EFS)
+15 - Reserved by PKWARE
+16 - Reserved by PKWARE
+17 - Reserved by PKWARE
+18 - File is compressed using IBM TERSE (new)
+19 - IBM LZ77 z Architecture (PFS)
+97 - WavPack compressed data
+98 - PPMd version I, Rev 1
+
+
+zip is a all in one technique means it compress and archive but 
+gzip is a purely compressing technique it uses tarball for archiving . 
+
