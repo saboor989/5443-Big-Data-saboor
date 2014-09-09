@@ -108,7 +108,7 @@ storeage space.
 
 I prefer java codes , because it is widely used, 
 an sample code i found for converting xml to json format
-==========================================================
+-------------------------------------------------------------
 Copying XML to JSON via XSL Transformation
 package de.odysseus.staxon.sample.copy;
 
