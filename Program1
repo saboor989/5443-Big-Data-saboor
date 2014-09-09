@@ -1,17 +1,15 @@
 
-#My program file
-*This text will be italic*
-**_This text will be italic_**
+Converting  .csv File format to .json file format
 
-www.google.com
+Why .csv?
 
-
-Hello- world
-=====================
-i love :coffee:,:pizza:.
-
-
-hi       |   hello
----------|-------------
-apple    | mango
-cat      | mouse
+The .csv file format i believe to be the simple of all , where data is in comma separated instead of Curly braces or
+ square brackets etc...
+ The csv file is simple ,supported by almost all spreadsheets and database management systems. 
+ Many programming languages have libraries available that support CSV files.
+ Many implementations projects support changing the field-separator character and some quoting conventions,
+ although it is a safe and simplest  conventions, to increase or maximize the recipient's or users
+ chances of handling the data.
+ 
+ 
+ 
