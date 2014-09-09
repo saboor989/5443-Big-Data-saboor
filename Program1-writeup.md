@@ -322,6 +322,28 @@ The ZIP format supports several compression methods:
 98 - PPMd version I, Rev 1
 
 
-zip is a all in one technique means it compress and archive but 
+zip:- is a all in one technique means it compress and archive but 
 gzip is a purely compressing technique it uses tarball for archiving . 
 
+* zip is a software use algorithms which compresses and archieve the file.
+  we can retrieve or extract the files from the compressed folder one by one 
+* In zip, individual files are compressed and then archive is done which enable us to pull a single file 
+  from the zip, it is simple it extract the file and then decompress it. 
+  
+  * The advantage is the disadvantage of zip . It can do both compression and archive
+    but this make the file use more space as when compared with gzip but it compress 
+    the file  properly . As both zip and gzip can be used with any kind of operating system
+    The zip is incorporated with the windows as a internal function of os. 
+
+Gzip:- It is the technique mainly used for compression it uses TAR for archiveing. 
+
+* Gzip archive all the files into a single tarball before compression. 
+  It then compresses the whole tarball into one compressed file. 
+* Whole file need to be decompressed before you can extract the file we want from the archieve.
+  
+  * The disadvantage is the biggest advantage of gzip the compression algorithm in gzip 
+    compresses one large file instead of multiple smaller ones, it takes advantage of the 
+    redundancy in the file to reduce the file size even further. 
+    gzip has a lot of followers from Unix operating system. such as many linux distributions.
+    
+ 
