@@ -18,7 +18,8 @@ chances of handling csv.
  
 The Json format is object and array based. JavaScript Object Notation, an open standard format that is human-readable. Is an attribute–value pairs. It is basically used to transmit data between a server and web application.
 
-I have found that python is an preffered language for converting the data from one format to other Like csv to json.
+I choosen python as an preffered language for converting the data from one format to other Like csv to json.
+because of the libraries ,modules , and easy conversion of data etc...
 
 * import the csv module for reading the data nad json module for writing the data.
 * we can read the file.csv which is comma separated . 
@@ -26,10 +27,11 @@ I have found that python is an preffered language for converting the data from o
   like say a file .csv is having data like 
   file name "Result"
   Data in file Example:
-  |name | age |    DOB  | Result|
-  |---- | --- | ------- | ------|
-  |sam  | 15  | 12-09-70|  B|
-  |tina | 15  | 11-07-70|  A|
+  
+  Name | Age |    DOB  | Result
+  -----|-----|---------|--------
+  sam  | 15  | 12-09-70|  B    
+  tina | 15  | 11-07-70|  A    
 
 The Object will be the "Result" and 
 the Data in file become the array with key value pairs
@@ -38,7 +40,7 @@ Json file:
 like 
 {
 "Result":[
-"Name":"sam".
+"Name":"sam",
 "age":"15",
 "DOB":"12-09-70",
 "Result":"B",
@@ -59,7 +61,11 @@ Mostly the .csv file contains the headings for the columns and rows of data .
 * and read the "commas" as to considered as an value to create key-value in json file
 * in the json file open and close and write the particular data as shown by inserting the proper "{}" and "[]"
   "" : and , to represent the json file format. 
-* 
+* for looping for the dynamic number of rows and columns to be written in json
+* in the end the the closing flower brace to indicate the end of object with many arrays with key value paris.
+
+The important thing here is the reading line by line of the file which helps in preventing some problems
+
 
 
 
