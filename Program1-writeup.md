@@ -30,23 +30,26 @@ I have found that python is an preffered language for converting the data from o
 
 Zip and Gzip the files 
 
-The original size: of files : are
-GpsFilePoints.csv	-	484M	 
-GpsFilePoints.sql	-	467M	 
-GpsFilePoints.xml.gz -	75M	 
-GpsFilePoints.yml.gz	-	60M	 
+The original size: of files : 
+
+* GpsFilePoints.csv	-	484M	 
+* GpsFilePoints.sql	-	467M	 
+* GpsFilePoints.xml.gz -	75M	 
+* GpsFilePoints.yml.gz	-	60M	 
 
 The file size after gzip is : 
-GpsFilePoints.csv.gz	-	58.28M reduced by :87.9%	 
-GpsFilePoints.sql.gz	-	59.09M	reduced by :87.34%
-GpsFilePoints.xml.gz -	65.92M	reduced by :12%
-GpsFilePoints.yml.gz	-	57.1M	 reduced by :5%
+
+* GpsFilePoints.csv.gz	-	58.28M reduced by :87.9%	 
+* GpsFilePoints.sql.gz	-	59.09M	reduced by :87.34%
+* GpsFilePoints.xml.gz -	65.92M	reduced by :12%
+* GpsFilePoints.yml.gz	-	57.1M	 reduced by :5%
 
 The file size after zip is : 
-GpsFilePoints.csv.zip	-	58.28M	 reduced by :87.9%
-GpsFilePoints.sql.zip	-	59.09M	 reduced by :87.34%
-GpsFilePoints.xml.zip -	65.92M	 reduced by :12%
-GpsFilePoints.yml.zip	-	57.1M	  reduced by :5%
+
+* GpsFilePoints.csv.zip	-	58.28M	 reduced by :87.9%
+* GpsFilePoints.sql.zip	-	59.09M	 reduced by :87.34%
+* GpsFilePoints.xml.zip -	65.92M	 reduced by :12%
+* GpsFilePoints.yml.zip	-	57.1M	  reduced by :5%
 
 
 zip or Gzip
