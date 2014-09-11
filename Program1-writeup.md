@@ -93,10 +93,10 @@ After doing the zip and gzip . The files size are same for both zip and gzip fil
 The difference observed is only in few 100 bytes . when calculating the percentage 
 The 100 bytes comes around .001 % or .003 % only.
 
-The .csv the gzip reduces size by few 100's bytes compared to zip 
-The .sql the gzip reduces size by few 100's bytes compared to zip
-The .xml the gzip reduces size by few 100's bytes compared to zip 
-The .yml the gzip reduces size by few 100's bytes compared to zip
+The .csv the gzip reduces size by few 100's bytes compared to zip. 
+The .sql the gzip reduces size by few 100's bytes compared to zip.
+The .xml the gzip reduces size by few 100's bytes compared to zip.
+The .yml the gzip reduces size by few 100's bytes compared to zip.
 
 zip or Gzip
 =============
