@@ -62,9 +62,9 @@ Mostly the .csv file contains the headings for the columns and rows of data .
 * in the json file open and close and write the particular data as shown by inserting the proper "{}" and "[]"
   "" : and , to represent the json file format. 
 * for looping for the dynamic number of rows and columns to be written in json
-* in the end the the closing flower brace to indicate the end of object with many arrays with key value paris.
+* in the end the the closing flower brace to indicate the end of object with many arrays with key value pairs.
 
-The important thing here is the reading line by line of the file which helps in preventing some problems
+The important thing here is , reading line by line of the file which helps in preventing some data handling problems.
 
 
 
