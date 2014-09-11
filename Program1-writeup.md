@@ -62,10 +62,7 @@ Mostly the .csv file contains first line as headings for the columns and rows wi
 * in the end the the closing flower brace to indicate the end of object with many arrays with key value pairs.
 
 The important thing here is , reading line by line of the file which helps in preventing some data handling problems.
-
-
-
-
+The memory useage and time consumption to convert big files are a factor to be considered while implementing and converting the files. 
 
 
 Zip and Gzip the files 
@@ -172,6 +169,3 @@ Gzip:- It is the technique mainly used for compression it uses TAR for archivein
     redundancy in the file to reduce the file size even further. 
     gzip has a lot of followers from Unix operating system. such as many linux distributions.
     The extension of compressed file is " .tar.gz" or ".tgz".
- 
-
- 
