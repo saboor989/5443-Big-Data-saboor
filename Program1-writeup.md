@@ -22,8 +22,45 @@ I have found that python is an preffered language for converting the data from o
 
 * import the csv module for reading the data nad json module for writing the data.
 * we can read the file.csv which is comma separated . 
-* read the line 
- 
+* read the file name as to be the object of the file.
+  like say a file .csv is having data like 
+  file name "Result"
+  Data in file Example:
+  |name | age |    DOB  | Result|
+  |---- | --- | ------- | ------|
+  |sam  | 15  | 12-09-70|  B|
+  |tina | 15  | 11-07-70|  A|
+
+The Object will be the "Result" and 
+the Data in file become the array with key value pairs
+
+Json file:
+like 
+{
+"Result":[
+"Name":"sam".
+"age":"15",
+"DOB":"12-09-70",
+"Result":"B",
+]
+[
+"Name":"tina".
+"age":"15",
+"DOB":"11-07-70",
+"Result":"A",
+]
+}
+
+Mostly the .csv file contains the headings for the columns and rows of data . 
+
+* reading the first line to be considered as the headings or key-value pairs for each object
+* ceate object for the key-value pairs to be as main object into the file 
+* read line by line for the data from the csv file till the end of file
+* and read the "commas" as to considered as an value to create key-value in json file
+* in the json file open and close and write the particular data as shown by inserting the proper "{}" and "[]"
+  "" : and , to represent the json file format. 
+* 
+
 
 
 
