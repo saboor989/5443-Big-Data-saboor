@@ -2,9 +2,6 @@
 Converting  .csv File format to .json file format
 ====================================================
 
-Java  as a developing language has many advantages with few implementation dependencies ,Many applications 
-in todays time are written in java. Its  a widely known language.
-
 I would certainly choose .csv but the xml format is much to advantage plus the useage of xml is a factor. xml which
 makes it an important one to opt for. 
 
@@ -21,7 +18,7 @@ The Json format is object and array based. JavaScript Object Notation, an open s
 I choosen python as an preffered language for converting the data from one format to other Like csv to json.
 because of the libraries ,modules , and easy conversion of data etc...
 
-* import the csv module for reading the data nad json module for writing the data.
+* import the csv module for reading the data and json module for writing the data.
 * we can read the file.csv which is comma separated . 
 * read the file name as to be the object of the file.
   like say a file .csv is having data like 
@@ -33,7 +30,7 @@ because of the libraries ,modules , and easy conversion of data etc...
   sam  | 15  | 12-09-70|  B    
   tina | 15  | 11-07-70|  A    
 
-The Object will be the "Result" and 
+The Object will be  "Result" and 
 the Data in file become the array with key value pairs
 
 Json file:
@@ -53,13 +50,13 @@ like
 ]
 }
 
-Mostly the .csv file contains the headings for the columns and rows of data . 
+Mostly the .csv file contains first line as headings for the columns and rows with the values of data . 
 
-* reading the first line to be considered as the headings or key-value pairs for each object
-* ceate object for the key-value pairs to be as main object into the file 
-* read line by line for the data from the csv file till the end of file
-* and read the "commas" as to considered as an value to create key-value in json file
-* in the json file open and close and write the particular data as shown by inserting the proper "{}" and "[]"
+* Reading the first line to be considered as the headings or key-value pairs for each object
+* Ceate object for the key-value pairs to be as main object into the file 
+* Read line by line for the data from the csv file till the end of file one at time optimizing usage of memory 
+* Read the "commas" as to considered as an value to create key-value in json file and commas as delimiter for taking     values. 
+* The json file open and close and write the particular data as shown by inserting the proper "{}" and "[]"
   "" : and , to represent the json file format. 
 * for looping for the dynamic number of rows and columns to be written in json
 * in the end the the closing flower brace to indicate the end of object with many arrays with key value pairs.
@@ -72,7 +69,7 @@ The important thing here is , reading line by line of the file which helps in pr
 
 
 Zip and Gzip the files 
-
+---------------------------------------------
 The original size: of files : 
 
 * GpsFilePoints.csv	-	484M	 
