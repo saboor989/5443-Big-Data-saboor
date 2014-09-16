@@ -10,7 +10,8 @@ Pic of Where is Hadoop and JPS.
 * The Addition of the Nodes to the cluster,
  
   The nodes are the machine which will be able to reach each other over the network. The easiest is to put both machines   in the same network with regard to hardware and software configuration, Like connecting both machines via a single hub   and configure the network interfaces to use a common network.
-
+  
+  List all slave hostnames or IP addresses in your conf/slaves file, one per line.
   Like :
   * 192.168.0.1    master
   * 192.168.0.2    slave
