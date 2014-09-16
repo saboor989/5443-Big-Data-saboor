@@ -37,5 +37,4 @@ Pic of Where is Hadoop and JPS.
   Warning: Permanently added 'slave' (RSA) to the list of known hosts.
   Ubuntu 10.04
  
-*
- 
+* Information on Master and slave cluster can be found but the master acting as the slave to another cluster is a bit     difficult to find out.  
