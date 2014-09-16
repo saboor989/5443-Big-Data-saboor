@@ -7,7 +7,9 @@ Pic of Where is Hadoop and JPS.
 
 ![whereishadoop](https://cloud.githubusercontent.com/assets/8570076/4262606/f3f2f802-3bac-11e4-97c7-6f96163935b1.png)
 
-* The Addition of the Nodes to the cluster,
+
+* Q1> Ans>
+  The Addition of the Nodes to the cluster,
  
   The nodes are the machine which will be able to reach each other over the network. The easiest is to put both machines   in the same network with regard to hardware and software configuration, Like connecting both machines via a single hub   and configure the network interfaces to use a common network.
   
@@ -37,4 +39,8 @@ Pic of Where is Hadoop and JPS.
   Warning: Permanently added 'slave' (RSA) to the list of known hosts.
   Ubuntu 10.04
  
-* Information on Master and slave cluster can be found but the master acting as the slave to another cluster is a bit     difficult to find out.  
+
+*Q2> Ans>
+   Yes every one in the class can add all other in the network as slaves. Hadoop support the master and many slaves    
+   cluster.
+   Yes the master in the cluster be a slave to other masters but with certain conditions. 
