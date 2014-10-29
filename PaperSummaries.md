@@ -28,23 +28,23 @@ Gp-zip is the predessor of Gp-Zip* , gp-zip divides the files into blocks of pre
 
 Reference  
 ----------
--[1] Lin .X, Lu. G, Dourglis.F,Shilane.P,Wallace.G.
+- [1] Lin .X, Lu. G, Dourglis.F,Shilane.P,Wallace.G.
       Migratory compression:Coarse-grained Data reordering to Improve Compressibility,
       12th USENIX Conference on file and Storage Technologie(Fast'14)
--[2] Xue. Z, Shen. G, Li. J, Xu .Q , Zhang. Y, Shao. J 
+- [2] Xue. Z, Shen. G, Li. J, Xu .Q , Zhang. Y, Shao. J 
      Compression-aware I/O performance analysis for big data clustering,
      BigMine'12:Proceedings of the 1st International workshop on Big data, Streams and         
      Heterogeneous Source Mining : Algorithms,Systems,Programming Models and
      Applications,August 2012.
--[3] Tan.H, Luo.W, M.Ni L.
+- [3] Tan.H, Luo.W, M.Ni L.
        ClosT: A Hadoop-based storage system for big spatio-temporal data analytics,
        October 2012 CIKM'12: Proceedings of the 21st ACM international conference on   
         information and knowledge management.
--[4] Zhao.D, Yin.J,Qiao.K,and Raicu.I
+- [4] Zhao.D, Yin.J,Qiao.K,and Raicu.I
       Virtual Chunks: On Supporting random Accesses to scientific Data in Compressible Storage         
       Systems,International Conference for High Performance Computing,Networking Storage and    
       Analysis(SC'13) poster session, 2013.
--[5] Kattan.A, and Poli.R.
+- [5] Kattan.A, and Poli.R.
       Evolutionary Lossless Compression with GP-ZIP*, July 2008,GECCO '08:Proceedings of the  
       10th annual conference on Genetic and evolutionary computation. 
 
