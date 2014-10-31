@@ -2,8 +2,8 @@ BigData Compressibility and Storage.
 ---------------------------------------------------------
 - Introduction
 - Data migration and reconstruction of BigData
---  1.Compression techniques
---  2.Storage techniques
+-  1.Compression techniques
+-  2.Storage techniques
 - MC compressibility
 - Storage system Clost:Data analytic's
 - Performance Analysis i/o BigData clusters
