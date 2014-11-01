@@ -4,7 +4,6 @@ import json
 import string
 
 
-# taken sai help in doing the problem
 f= open('x00', 'r')
 
 r = redis.StrictRedis(host='localhost', port=6379, db=0)
@@ -12,24 +11,27 @@ r = redis.StrictRedis(host='localhost', port=6379, db=0)
 r.flushall()
 
 for line in f:
-
-    # Filter that line, removing non ascii characters
-    # Doesn't identify which, just filters
 		line = json.loads(filter(lambda x: x in string.printable, line))
-		
-	
-		r.sadd('fooditems',{line['description']})
-	
-		for nut in line['nutrients']:
-				r.zincrby('hashtag',nut['description'],1)
+		r.sadd('fooditem',{line['description']})
+						
 
+for line1 in f:
+
+		line1 = json.loads(filter(lambda x: x in string.printable, line))
+		for nut in line1['nutrients']:
+			r.zincrby('taghash',nut['description'],1)
+
+				
 
 item = 'Protein'	
-numitems = r.scard('fooditems')
-itemrep = r.zscore('hashtag',item)
-print "### Percentage of food items contain ",item," nutrient:"
-print "> Unique Items:", numitems
-print "> ",item, ' occurs ',itemrep,' times'
+print "the percentage of food items which contain  nutrient:",item
 
-p = (float(itemrep)/float(itemrep))*100
-print "> ",item, " occurs in " , p , "% number of food items."
+numitems = r.scard('fooditem')
+print "Unique Items found:", numitems
+itemrep = r.zscore('taghash',item)
+print item, ' is occuringoccurs ',itemrep
+
+# to find the percentage x/y*100 gives the x percentage of y.
+val=(float(itemrep)/float(itemrep))
+p = val*100
+print item, "occuring " , p , "percentage of fooditems"

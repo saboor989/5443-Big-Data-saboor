@@ -7,8 +7,8 @@ import sys
 r = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 # Open file for reading
-f = open('../nutrition_clean.json', 'r')
-#f = open('x00','r')
+#f = open('../nutrition_clean.json', 'r')
+f = open('x00','r')
 # Read one line from file
 
 for line in f:

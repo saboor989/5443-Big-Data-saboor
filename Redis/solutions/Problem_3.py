@@ -31,21 +31,21 @@ for line in f:
 #	h.getall(k)
 #	count = count + 1
 
-# from here taken sai material help in doing.
+
 len=r.zcard('taghash')
-value=r.zrange('taghash',len-5,len)
+l=len-5
+value=r.zrange('taghash',l,len)
 
-for nutrient_tag in value:
-	list.append(nutrient_tag)
+for nut_tag in value:
+	list.append(nut_tag)
 
-print "### Top 5 most commonly occuring nutrients:"
 
-i = 4
-j = 1	
-while i >= 0 :
-	print j, '. ', list[i], ' occurs ', r.zscore('hashtag',list[i]), 'number of times'
-	j += 1
-	i -= 1
+itime = 4
+jtime = 1	
+while itime >= 0 :
+	print jtime, '=', list[itime], ' is occuring ', r.zscore('taghash',list[itime]), 'times'
+	jtime =jtime+1
+	itime =itime-1
 
 
 #print count

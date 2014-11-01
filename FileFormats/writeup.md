@@ -23,8 +23,26 @@ because of the libraries ,modules , and easy conversion of data etc...
 * read the file name as to be the object of the file.
   like say a file .csv is having data like 
   file name "Result"
-  Data in file Example:
   
+* Yml code i found on the site . which i found to be directly dumping the json format. easily
+  
+* yml to json code i found
+-------------------------
+http://yamltojson.com/#python
+import yaml
+import json
+yml = """
+---
+  foo: bar
+"""
+data = yaml.load(yml)
+json = json.dumps(data)
+
+print(json)
+
+  
+  Data in file Example:
+------------------------  
   Name | Age |    DOB  | Result
   -----|-----|---------|--------
   sam  | 15  | 12-09-70|  B    
